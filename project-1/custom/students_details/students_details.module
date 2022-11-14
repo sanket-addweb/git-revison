@@ -1,0 +1,27 @@
+<?php
+
+function student_theme(){
+    return array(
+        'students'=> array(
+            'variables'=> array(
+                'items'=>[],
+                'title'=>'',
+                // 'empData'=>''
+            )
+        ),
+    );
+}       
+
+
+// function student_theme(){
+//     return [
+//         'createForm'=> [
+//             'variables' => [
+//                 'formData'=>[],
+//                 'title'=>''
+//             ],
+//         ],
+
+
+//     ];
+// }

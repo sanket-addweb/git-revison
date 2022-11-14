@@ -1,0 +1,10 @@
+# students_module.studentPage: make sure that this rout is  from routing.yml file
+students_module.studentInfo:
+  title: 'students Information'
+  description: 'Here you get students information'
+  route_name: students_module.studentInfo
+  weight: 2
+  menu_name: main
+  # options: 
+  #   attributes: 
+  #     target: _blank

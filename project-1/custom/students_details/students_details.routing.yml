@@ -1,0 +1,11 @@
+students_details.createStudents:
+  path: '/create-students'
+  defaults: 
+    # _controller: '\Drupal\Students_details\Controller\StudentController::createStudents'
+    _form: '\Drupal\Students_details\Form\StudentForm'
+    # \Drupal\students_module\Controller\StudentPageController::studentInfo
+    _title: 'Register Students Now'
+  requirements:
+    _permission: 'access content'
+
+    

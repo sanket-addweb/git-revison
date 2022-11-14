@@ -1,0 +1,6 @@
+name: Student page module
+description: all information about student
+core: 8.x
+core_version_requirement: ^8 || ^9
+type: module
+package: Custom modules

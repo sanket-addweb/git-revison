@@ -1,0 +1,8 @@
+students_module.studentInfo:
+  path: '/student-page'
+  defaults: 
+    _controller: '\Drupal\students_module\Controller\StudentPageController::studentInfo'
+    # This name is exectly as per namespace given in StudentPageController.php file
+    _title: 'Students page'
+  requirements: 
+    _permission: 'access content'
